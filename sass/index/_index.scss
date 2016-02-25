@@ -1,0 +1,50 @@
+/* portrait 竖屏*/
+@media screen and (orientation:portrait) {
+/* portrait-specific styles */
+body{ opacity: 1;}
+}
+
+/* landscape 横屏*/
+@media screen and (orientation:landscape) {
+/* landscape-specific styles */
+body{ opacity: 0;}
+}
+
+header,footer{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	line-height: 80px;
+	background: #333;
+	position: fixed;
+	
+}
+
+header{
+	left: 0;
+	top: 0;
+}
+
+footer{
+	left: 0;
+	bottom: 0;
+}
+
+section{
+	width: 750px;
+	margin: 10px auto;
+	background: #0f0;
+	ul{
+		width: 400px;
+		margin: 0 auto;
+		background: #E41C5B;
+		li{
+			line-height: 60px;
+			width: 100%;
+			text-align: center;
+			color: #fff;
+			font-size: 20px;
+		}
+	}
+}
